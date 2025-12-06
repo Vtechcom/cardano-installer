@@ -1,0 +1,10 @@
+mithril:
+  version: "2543.1-hotfix"
+  base_url: "https://github.com/input-output-hk/mithril/releases/download/2543.1-hotfix/"
+
+  binaries:
+    windows-x64: "mithril-2543.1-hotfix-windows-x64.tar.gz"
+    linux-x64: "mithril-2543.1-hotfix-linux-x64.tar.gz"
+    linux-arm64: "mithril-2543.1-hotfix-linux-aarch64.tar.gz"
+    macos-x64: "mithril-2543.1-hotfix-macos-x64.tar.gz"
+    macos-arm64: "mithril-2543.1-hotfix-macos-arm64.tar.gz"

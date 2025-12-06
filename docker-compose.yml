@@ -1,0 +1,18 @@
+
+version: "3.9"
+services:
+  cardano-node:
+    image: inputoutput/cardano-node:latest
+    container_name: cardano-node-preprod
+    restart: always
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./config/preprod:/config
+      - ./db/preprod:/db
+    command: >
+      cardano-node run
+        --config /config/config.json
+        --topology /config/topology.json
+        --database-path /db
+        --socket-path /db/node.socket
