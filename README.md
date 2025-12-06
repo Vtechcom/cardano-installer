@@ -112,11 +112,7 @@ If you'd like to extend the project, consider the following improvements:
 This project is licensed under the Apache License 2.0 — see `LICENSE` for details.
 For issues or feedback, use the repository issue tracker.
 
+## Contributing
+We welcome contributions! See `CONTRIBUTING.md` for development and PR guidelines.
+
 ---
-
-If you want, I can also:
-- Auto-create a `CONTRIBUTING.md` with the suggested development steps above.
-- Implement auto-extraction and set executable on non-Windows systems for `mithril-client`.
-- Add an optional `--dry-run` flag to the CLI and test harness to validate generated files without making any side effects.
-
-Which one should I do next? 
